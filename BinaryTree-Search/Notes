@@ -1,0 +1,13 @@
+STRUCTURE
+- each node has at most two children
+- left child node will have a value less than parent node
+- right child node will have a value more than a parent node
+
+METHODS
+- insert new node by comparing to parent node values
+- same for deleting
+
+firstEntry() - smallest key value
+lastEntry() - largest key value
+floorEntry(k) - largest key less than or equal to k
+ceilingEntry(k) - smallest key greater than or equal to k
