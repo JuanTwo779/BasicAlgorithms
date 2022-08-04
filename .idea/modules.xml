@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BasicAlgorithms.iml" filepath="$PROJECT_DIR$/.idea/BasicAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary-Search/Binary-Search.iml" filepath="$PROJECT_DIR$/Binary-Search/Binary-Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear-Search/Linear-Search.iml" filepath="$PROJECT_DIR$/Linear-Search/Linear-Search.iml" />
     </modules>
   </component>

@@ -1,0 +1,21 @@
+Binary search is a recursive search method
+it alters the min and max indexes to halve the array
+
+CODE
+    public boolean binarySearch(int[] data, int target, int low, int high)
+        {
+            if (low > high)
+                return false;
+            else
+            {
+                int mid = (low + high) / 2;
+                if (target == data[mid])
+                    return true;
+                else if (target < data[mid])
+                    return binarySearch(data, target, low, mid - 1);
+                else //target > data[mid]
+                    return binarySearch(data, target, mid + 1, high);
+            }
+        }
+
+pass in array, pass in target (user input), low is 0, high is data.length (length of DS)
